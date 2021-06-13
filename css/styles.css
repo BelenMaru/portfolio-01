@@ -1,0 +1,393 @@
+body{
+   font-family: 'DM Mono',monospace;
+    margin:0;
+    text-align: center;
+    padding-top:85px;
+ }
+ h1{
+   
+   font-size:2rem;
+   font-weight: bold;
+   line-height:2;
+    margin:0;  
+ }
+ 
+ h3{
+    color:#11999E;
+    font-family:"DM  Mono", monospace;
+    
+ }
+ p{
+   font-family: "Roboto", sans-serif;
+   font-weight:100;
+    line-height: 2;
+ }
+ hr{
+    border-style:dotted none none none;
+    color:gray;
+    border-width:10px;
+    width:20%;
+   
+ }
+
+ 
+ .top{
+    margin-top:5%;
+ }
+ .bottom{
+    margin-bottom:5%;
+ }
+
+ /* Containers */
+ .container{
+    display:flex;
+ }
+ .container-fluid{
+    padding:5%  8%;
+ }
+.first-section{
+   background-color: #e4f9f5;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19); 
+   border-radius:10px;
+}
+
+.top-container{
+   background-color: #e4f9f5;
+   display: flex;
+   align-content: center;
+   border-radius: 10px;
+}
+  
+/* Navbar */
+.navbar {
+   font-family: "Roberto",sans-serif;
+   font-weight: 100;
+   background-color: #e4f9f5;
+   /* box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);  */
+}
+
+.navbar-brand{
+   background-color: #e4f9f5 ;
+   color:#11999e;
+    font-family: 'Rock Salt' , cursive;
+}
+
+.navbar-brand:hover{
+   color: #11999e !important;
+   font-weight: bold !important;
+}
+
+a.nav-link:hover {
+   color: #11999e !important;
+   font-weight: bold !important;
+}
+
+/* Contact Section */
+.contact-message{
+   width: 65%;
+   margin: auto auto 25px;
+  
+}
+
+.btn{
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+  background: #30e3ca;
+  background-image: -webkit-linear-gradient(top, #30e3ca, #11999e);
+  background-image: -moz-linear-gradient(top, #30e3ca, #11999e);
+  background-image: -ms-linear-gradient(top, #30e3ca, #11999e);
+  background-image: -o-linear-gradient(top, #30e3ca, #11999e);
+  background-image: linear-gradient(to bottom, #30e3ca, #11999e);
+  border-radius: solid #12A188  8px;
+  text-shadow: 1px 1px 3px #666666;
+  color: #40514e;
+  font-size: 1.1rem;
+  margin:2px !important;
+  padding: 10px 10px;
+  text-decoration: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.btn:hover{
+   background: #e4f9f5;
+   text-decoration: none;
+}
+
+/* Footer */
+.footer-section{
+   background-color:#11999e;
+}
+
+.contact-icon{
+   color:#40514e;
+   margin: 20px;  
+}
+
+.contact-icon:hover{
+   color: #e4f9f5;
+
+}
+
+.email{
+   font-family:"DM  Mono", monospace;
+   color: #e4f9f5;
+
+}
+
+.email:hover{
+   color: #e4f9f5  !important;
+   font-weight: bold !important;
+}
+
+/* Copyright */
+.copyright{
+   margin:30px 0 10px;
+}
+
+/* Home Page */
+
+/* Title Section */
+#title.container-fluid{
+   padding: 10% 0;
+}
+
+.cursive{
+   color:#11999e;
+   font-family: 'Rock Salt' , cursive;
+   font-size:2.2rem;
+}
+
+/* Skills Section */
+.skills{
+   background-color: #e4f9f5;
+   padding: 30px 0 1px;
+}
+
+.skill-row {
+   width: 85%;
+   margin: 100px auto;
+   line-height: 2;
+}
+
+.right{
+   text-align: right;
+}
+
+.left{
+   text-align: left;
+}
+
+.web-img{
+   float: left;
+   margin-right: 40px;
+
+}
+
+.dev-img{
+   float: right;
+   margin-left: 40px;
+   margin-top:10px;
+}
+
+/* About Page */
+.myTypeAbout{
+   font-size: 3.2rem; 
+}
+
+.about-heading{
+   background-color: #e4f9f5;
+}
+.about-me{
+   width: 70%;
+   margin:100px auto 100px auto;
+   text-align: left;  
+}
+
+.about-img{
+   width:35%;
+   height: 20%;
+   float:left;
+   margin-right: 30px;
+}
+
+.cv-button{
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   background: #30e3ca;
+   background-image: -webkit-linear-gradient(top, #30e3ca, #11999e);
+   background-image: -moz-linear-gradient(top, #30e3ca, #11999e);
+   background-image: -ms-linear-gradient(top, #30e3ca, #11999e);
+   background-image: -o-linear-gradient(top, #30e3ca, #11999e);
+   background-image: linear-gradient(to bottom, #30e3ca, #11999e);
+   border-radius: solid #12A188  8px;
+   text-shadow: 1px 1px 3px #666666;
+   color: #40514e ;
+   font-size: 1.1rem;
+   margin:2px !important;
+   font-weight: 200;
+   padding: 10px 40px;
+   text-decoration: none;
+   text-align: left;
+   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19); 
+ }
+
+  .cv-button:hover{
+   background: #e4f9f5;
+   text-decoration: none;
+   }
+
+/* Work Page */
+/* Work Title Section */
+
+#App-projects, #bootcamp-projects, #playground{
+   text-align: left;
+}
+
+.work.container-fluid{
+   padding:5%;
+}
+.project-title{
+   font-size: 1.75rem;
+   font-weight: bold;
+}
+
+.project-img{
+   border-bottom: 1px solid black;
+   
+}
+
+.projects{
+   padding: 0 5% 5%;
+}
+
+.projects h2 {
+   color: #11999e;
+   font-size: 1.5rem;
+}
+
+
+/* Typewritter effect */
+
+.typewriter{
+    
+   overflow: hidden;        /* ensure the content is not revealed until the animation */
+   border-right: .1em solid #40514e;  /* The typewriter cursor */
+   white-space: nowrap; /* Keeps the content on the single line */
+   margin: 0 aut0;  /* Gives the scrolling effect as the typing happens */
+   letter-spacing: .1em; /* Adjust as needed */
+   animation:
+      typing 2.5s steps(41,end),
+      blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing{
+   from {width: 0}
+   to {width:100%}
+}
+
+/* The typewritter cursor effect */
+@keyframes blink-caret{
+   from, to {border-color: transparent}
+   50% {border-color: #40514e}
+}
+
+/* Media Queries */
+/* Home page typing effect on bigger screens */
+@media(min-width: 624px){
+.typewriter-slow{
+   overflow: hidden;        /* ensure the content is not revealed until the animation */
+   border-right: .1em solid #40514e;  /* The typewriter cursor */
+   white-space: nowrap; /* Keeps the content on the single line */
+   margin: 0 aut0;  /* Gives the scrolling effect as the typing happens */
+   letter-spacing: .1em; /* Adjust as needed */
+   animation:
+      typing 2.5s steps(41,end),
+      blink-caret .75s step-end infinite;
+}
+}
+
+/* XLarge screens */
+@media(min-width: 1000px) {
+   .about-container{
+      padding: 5% 0;
+   }
+
+.container{
+   padding: 0 15%;
+}
+}
+
+/* Large screens */
+@media(min-width:926px) and (max-width:1008px) {
+   .container-fluid{
+      padding:5%;
+   }
+}
+
+/* Medium Screens */
+@media(max-width:925px){
+   #title.container-fluid{
+      padding: 5% 3%;
+   }
+
+a.card-text.btn{
+   font-size:12px;
+}
+}
+@media(max-width:620px){
+   #title.container{
+      display:none;
+   }
+}
+
+/* Small screens */
+@media(max-width: 415px) {
+   h1,h2 {
+      font-size: 1.2rem;
+   }
+h2.App-title, h2.card-title{
+   font-size: 1.1rem;
+}
+
+h3 {
+   font-size: 1.1rem;
+}
+
+.intro{
+   margin:0;
+   padding:0 5%;
+}
+.container-fluid{
+   padding: 5% 1%;
+}
+
+.cursive{
+   font-size:1.4rem;
+}
+
+.contact-tag{
+   font-size: 1.3rem;
+}
+.contact-title{
+   font-size: 1.4rem;
+
+}
+.skill-row{
+   width: 85%;
+   margin: 50px auto;
+   text-align: center;
+}
+.web-img, .dev-img{
+   margin:auto;
+   padding: 0 5% 5%;
+   float:none
+}
+#skills, .container-fluid{
+   padding-top:10%;
+}
+#skills.skills-title{
+font-size: 1.3rem;
+}
+}
+
