@@ -250,11 +250,11 @@ a.nav-link:hover {
    font-size: 1.75rem;
    font-weight: bold;
 }
-
-.project-img{
-   border-bottom: 1px solid black;
+ .project-img{
+   border: 1px solid black;
+   position:absoulute;
    
-}
+} 
 
 .projects{
    padding: 0 5% 5%;
